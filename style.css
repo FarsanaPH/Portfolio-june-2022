@@ -1,0 +1,96 @@
+body {
+    text-align: center;
+    margin: 0%;
+}
+
+.menu {
+    position: fixed;
+    background-color: blanchedalmond;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.link {
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 18px;
+
+}
+
+a {
+    text-decoration: none;
+    color: crimson;
+    text-shadow: 5px 5px 5px grey;
+}
+
+/* psuedoclass- hover
+steps=
+selector:psuedo-class{property:value; */
+.link:hover {
+    font-size: 22px;
+    text-decoration: underline;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+#home{background: linear-gradient(grey,black);
+    color: beige;
+
+}
+.profile{
+    width: 500px;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+h1{
+    font-family: 'Spectral', serif;
+}
+
+#name{font-size: 50px;
+    font-family: 'Great Vibes', cursive;
+    line-height: 1.3;
+
+}
+h2{font-size: 35px;
+line-height: 1.5;
+    font-family: 'Staatliches', cursive;
+}
+#bio{
+    padding: 50px;
+    padding-top: 0px;
+}
+
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: auto;
+}
+p{
+    font-size: 18px;
+}
+
+#writings a{
+    text-shadow: none;
+    text-decoration: underline;
+    color: blue;
+}
+#writings a:hover{
+    color: brown;
+}
+
+#contact{
+    background-color: darksalmon;
+}
+#contact iframe{
+    width: 100%;
+    margin-top: 20px;
+}
+#contact_1 a{
+text-shadow: none;
+color: blue;
+text-decoration: underline;
+}
